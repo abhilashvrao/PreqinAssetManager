@@ -31,8 +31,8 @@ Asset Manager
 
 2. Install react dependencies:
    - Navigate to client directory and install -
-   `cd client`
-   `npm install`
+   - `cd client`
+   - `npm install`
 
 3. Run API project:
    - Navigate to dotnet API project and build
@@ -41,7 +41,15 @@ Asset Manager
    - `dotnet run`
 
 4. Run React app:
+   - Navigate to client directory and run
+   - `cd client`
    - `npm run dev`
 
 5. Access the app in the browser:
    - `http://localhost:5173/`
+
+
+## Additional Note
+
+   - Running the `dotnet ef database update -p DataAccess -s API` command creates the database tables 
+   - `DbInitializer` takes care of seeding the test data to the database. 
