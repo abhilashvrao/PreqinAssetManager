@@ -7,9 +7,9 @@ Asset Manager
 
 ## Technologies Used
 
-Frontend: React (Vite), TypeScript, Material UI
-Backend: .NET Core (ASP.NET Web API), Entity Framework Core
-Database: SQLite
+- Frontend: React (Vite), TypeScript, Material UI
+- Backend: .NET Core (ASP.NET Web API), Entity Framework Core
+- Database: SQLite
 
 ## Project Structure
 
