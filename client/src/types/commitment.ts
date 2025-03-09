@@ -1,17 +1,17 @@
 export interface CommitmentDetails {
   name: string;
-  commitments: CommitmentDto[];
-  assetClasses: AssetClassDto[];
+  commitments: Commitment[];
+  assetClasses: AssetClass[];
 }
 
-export interface CommitmentDto {
+export interface Commitment {
   id: number;
   assetClass: string;
   amount: string;
   currency: string;
 }
 
-export interface AssetClassDto {
+export interface AssetClass {
   name: string;
   totalAmount: string;
 }

@@ -16,14 +16,14 @@ import {
 } from "@mui/material";
 import {
   CommitmentDetails,
-  CommitmentDto, AssetClassDto,
+  Commitment, AssetClass,
 } from "../types/commitment";
 
 const CommitmentsGrid = () => {
   const { investorId } = useParams<{ investorId: string }>(); 
   const [name, setName] = useState<string>("");
-  const [commitments, setCommitments] = useState<CommitmentDto[]>([]);
-  const [assetClasses, setAssetClasses] = useState<AssetClassDto[]>([]);
+  const [commitments, setCommitments] = useState<Commitment[]>([]);
+  const [assetClasses, setAssetClasses] = useState<AssetClass[]>([]);
   const [filteredAssetClass, setFilteredAssetClass] = useState<string>("");
   
 
